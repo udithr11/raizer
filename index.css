@@ -131,7 +131,7 @@
     margin:0;
   }
   #second_spacing{
-    padding-top:2rem;display:flex;position:relative;
+    padding-top:1rem;display:flex;position:relative;
   }
   .north_east_arrow{
     height:3rem;width:4.7rem;padding-left:1rem;position:absolute;bottom:0;right:60%;
@@ -153,7 +153,8 @@
       height:19rem;width:90%;border-radius: 0.5rem;margin:auto;padding:0rem 1rem;
   }
   #text_engagement{
-      font-size:calc(1.5rem + 1.5vw);font-weight:500;padding-bottom:2rem;padding-top:2rem;
+      font-size:calc(1.5rem + 1.5vw);font-weight:500;padding-bottom:2rem;
+      /* padding-top:2rem; */
   }
   #second_1_middle_text{
       font-size:calc(0.45rem + 0.43vw);font-weight:300;letter-spacing:1px;font-family: Roboto Mono;color:white;
