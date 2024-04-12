@@ -1,0 +1,151 @@
+
+@media (max-width: 1300px) {
+    .nav_items{
+        padding-left:0.9rem;
+    }
+    .four_main{
+        height:28rem !important;
+        padding:1.75rem !important;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    #nav_items_container{
+        display:none ;
+    }
+    #hamburger{
+        display:flex;
+        color:white;
+    }
+    .north_east_arrow{
+        right:52% !important;
+        height:2.8rem !important;
+    }
+    #north_east_image{
+        max-width: 88% !important;
+    }
+    .four_para_container{
+        display: flex !important;
+        align-items:center !important;
+    }
+    .four_main{
+        height:24rem !important;
+        padding:2rem !important;
+    }
+    .four_para_container{
+        padding:0rem !important;
+    }
+    .even,.odd{
+        padding:0.7rem 0rem !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    #text_engagement{
+        /* padding-top:0 !important; */
+        font-size:calc(1rem + 1vw) !important;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+    .north_east_arrow{
+        right:30% !important;
+        height:2.6rem !important;
+    }
+    #north_east_image{
+        max-width: 84% !important;
+    }
+    .four_main{
+        padding:1.5rem !important;
+    }
+}
+@media (max-width: 800px) {
+    .north_east_arrow{
+        right:30% !important;
+        height:2.6rem !important;
+    }
+    #north_east_image{
+        max-width: 84% !important;
+    }
+    .four_main{
+        padding:1.2rem !important;
+    }
+}
+@media (max-width: 767px) {
+    #hero_down_arrow{
+        padding-bottom:0 !important;
+    }
+    #second{
+        padding-top:0;
+    }
+    #first{
+        min-height:80vh;
+    }
+    #ai_sol_one{
+        display:flex !important;
+    }
+    #ai_sol_two{
+        display:none !important;
+    }
+    #three{
+        width:100% !important;
+    }
+    #three_text_container{
+        padding:3rem 2.5rem !important;
+        width:100% !important;
+        margin-top: -2rem !important;
+    }
+    #three_text_2{
+        font-size:14px;
+    }
+    #three_image{
+        display:none;
+    }
+    #three_image_mobile{
+        display:flex !important;
+    }
+    #forty_one_container{
+        height:16rem !important;
+    }
+    #expertise_text{
+        font-size:28px !important;
+    }
+    .four_heading{
+        text-align: center;
+    }
+    .four_image_container img{
+        max-width: 20% !important;
+    }
+    .four_image_container{
+        display:flex;
+        justify-content: center;
+        padding-bottom:1rem;
+    }
+    .four_para_content{
+        padding-top:1rem !important;
+        text-align:center !important;
+        font-size: 10px !important;
+        line-height: 14px !important;
+
+    }
+    .four_main{
+        height:28rem !important;padding: 1rem !important;
+    }
+    .four_para_container{
+        padding:0 !important;
+    }
+    .even,.odd{
+        padding:1rem 0rem !important;
+    }
+
+}
+@media (max-width: 768px) {
+    .four_main{
+        height:36rem !important;
+    }
+}
