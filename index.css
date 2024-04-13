@@ -147,7 +147,8 @@
     width:85%;margin:auto;padding-top:5rem
   }
   .second_p{
-      padding-top:2rem;
+    padding:0;
+      padding-top:3rem;
   }
   #second_1_main{
       height:19rem;width:90%;border-radius: 0.5rem;margin:auto;padding:0rem 1rem;
@@ -169,7 +170,7 @@
       text-align:center;display:flex;width:100%;height:100%;letter-spacing: 2px;font-size: calc(0.7rem + 0.7vw);font-weight:500;align-items:center;justify-content: center;color:white;
   }
   .second_3{
-      height:19rem;width:90%;border-radius:25px;margin:auto;background-color:#5BC1AC;padding:2rem;display:flex;flex-direction: column;color:white;
+      height:19rem;width:93%;border-radius:25px;margin:auto;background-color:#5BC1AC;padding:2rem;display:flex;flex-direction: column;color:white;
   }
   .second_3_a{
       color:white;font-size:1.3rem;

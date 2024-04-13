@@ -127,7 +127,7 @@
         padding-bottom:1rem;
     }
     .four_para_content{
-        padding-top:1rem !important;
+        padding-top:2rem !important;
         text-align:center !important;
         font-size: 10px !important;
         line-height: 14px !important;
@@ -146,7 +146,7 @@
 }
 @media (max-width: 768px) {
     .four_main{
-        height:36rem !important;
+        height:32rem !important;
     }
     .four_heading{
         line-height: 1 !important;
@@ -255,4 +255,16 @@
         justify-content: center !important;
 
     }
+    #four{
+        padding: 1rem !important;
+        padding-top:6rem !important;
+    }
+    #seven_button{
+        font-size:12px !important;
+    }
+    #tail_mail_icon{
+        display:none !important;    font-family: 'Roboto Mono';
+
+    }
+
 }
