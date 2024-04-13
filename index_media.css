@@ -154,4 +154,105 @@
     .five_heading{
         border-left: 2px solid #ACB3F0;padding-left:3rem;
     }
+    .five_para{
+        padding-top:0 !important;padding-bottom:2rem !important;line-height: 16px !important;font-size:12px !important;
+    }
+    .five_heading{
+        padding-top:4rem !important;
+    }
+    .timeline-content::before{
+        top:50% !important;
+    }
+    #six_sub_text{
+        text-align: center !important;
+    }
+    #six_partenership_container{
+        justify-content: center ;
+    }
+    .six_small_container{
+        padding:1.9rem !important;
+    }
+    .six_number_below{
+        font-size:16px !important;font-weight: 550 !important;
+    }
+    #six_main_1{
+        padding-right:0 !important;padding-bottom:2rem !important;
+    }
+    #six_main_2{
+        padding-left:0 !important;
+    }
+    .six_text{
+        font-size:12px !important;
+    }
+    #six{
+        background-image:url('pictures/background_six_mobile.png') !important;
+        background-size: 100% 100% !important;
+    }
+    #six_main{
+        padding:2rem 0rem !important;
+    }
+    .mobile_off{
+        display:none !important;
+    }
+    #seven{
+        padding:1.5rem 0rem !important;
+    }
+    #seven_main{
+        padding:1.5rem !important;width:90% !important;
+    }
+    #seven_form{
+        display:block !important;
+    }
+    #form_1,#form_2{
+        width:100% !important;padding:0 !important;
+    }
+    #form_2{
+        padding-top:1rem !important;
+    }
+    #seven_about_project_container{
+        padding-top:1rem !important;
+    }
+    #form_bottom_text{
+        display:none !important;
+    }
+    #form_bottom_text_container{
+        justify-content: center !important;
+    }
+    #tail_image_container{
+        justify-content: center;
+    }
+    #tail_col_1{
+        padding:0 !important;display: flex;
+        flex-direction: column;align-items: center;
+    }
+    #tail_text_1{
+        text-align: center;padding-top:3rem !important;
+    }
+   
+    #tail_col_1,#tail_col_2_main,#tail_contact{
+        padding:0 !important;
+    }
+    #tail_col_2_main{
+        text-align: center !important;padding-top:2rem !important;
+    }
+    #tail_contact{
+        align-items: center !important;padding-top:3rem !important;
+
+    }
+    #tail_col_2_main a{
+        padding-top:0.8rem !important;
+    }
+    #tail_contact_2{
+        letter-spacing:2px !important;
+    }
+    #tail_privacy{
+        display:none !important;
+    }
+    #tail_rights{
+        padding:0 !important;text-align: center !important;
+    }
+    #tail_privacy_container{
+        justify-content: center !important;
+
+    }
 }

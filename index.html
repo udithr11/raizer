@@ -485,7 +485,7 @@
     background-color: #ACB3F0;
     border-radius: 50%;
     left: -10px; /* Adjust this value to position the circle */
-    bottom: 18%;
+    bottom: 15%;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -493,7 +493,7 @@
     padding-top:7rem;font-size:calc(1rem + 1vw);font-weight:600;
 }
 .five_para{
-    color:white;font-size:14px;font-family: Roboto Mono;padding:0rem 3rem;padding-bottom:8rem;padding-top:7rem;position:relative;border-left: 2px solid #ACB3F0;
+    color:white;font-size:14px;font-family: Roboto Mono;padding:0rem 3rem;padding-bottom:8rem;padding-top:7rem;position:relative;border-left: 2px solid #ACB3F0;line-height:18px;font-weight:400;
 }
     </style>
 
@@ -504,7 +504,7 @@
             <div  class="col-md-6 colourful_text five_heading">
                 Business Intelligence
             </div>
-            <div class="col-md-6 timeline-content five_para" >
+            <div class="col-md-6 timeline-content five_para">
                 At Raizer.ai, we recognise the critical role of well-structured, good quality data in the successful
                 implementation of AI solutions. Understanding that the foundation of any AI-driven endeavour is 
                 deeply rooted in robust data, we collaborate closely with our esteemed partner, Limner Consulting. 
@@ -559,9 +559,12 @@
 <div style="height:1px;width:100%;background-color:#ACB3F0"></div>
 
 
-<section id="six" style="background-image:url('pictures/background_six.png'); background-repeat: no-repeat, no-repeat;background-position: 30% 40%;background-size:auto;">
+<section id="six">
 
     <style>
+        #six{
+            background-image:url('pictures/background_six.png'); background-repeat: no-repeat, no-repeat;background-position: 30% 40%;background-size:auto;
+        }
         #six_main{
             width:85%;margin:auto;padding:8rem 0rem;
         }
@@ -569,7 +572,7 @@
             font-weight:600;font-size:2rem;padding-top:2rem;width:fit-content;padding-bottom:2rem
         }
         #six_sub_text{
-            color:white;font-weight:500;letter-spacing:1px;padding-bottom:4rem;
+            color:white;font-weight:400;letter-spacing:1px;padding-bottom:4rem;font-size:20px;line-height: 34px;
         }
         
         .six_small_container{
@@ -593,15 +596,19 @@
         #six_colourful{
             background:linear-gradient(to right, #6475B7, #40B6E8, #5BC1AC)
         }
+        #six_partenership_container{
+            display:flex;
+        }
 
     </style>
     <div id="six_main">
-
+        <div id="six_partenership_container" >
         <div id="six_partenership" class="colourful_text">
             Partnerships
         </div>
+    </div>
         <div id="six_sub_text">Raizer.ai extends flexible partnerships, facilitating transformative ventures in AI. Our goal is 
-            to <br>partner in product development or AI solution implementation, driving technological advancements <br>
+            to <br class="mobile_off">partner in product development or AI solution implementation, driving technological advancements <br class="mobile_off">
             aligned with joint business objectives.
         </div>
 
@@ -641,34 +648,80 @@
 
 </section>
 
-<section id="seven" style=" background:linear-gradient(to left, #6475B7 58%, #40B6E8 100%);padding:7rem 0rem;border-radius:20px">
-    <div style="width:75%;margin:auto;background-color:white;border-radius: 25px;padding:5rem 7rem">
-        <div style="font-size:calc(1rem + 1vw);font-weight:600;padding-bottom:3rem">
+<section id="seven">
+
+    <style>
+        #seven{
+            background:linear-gradient(to left, #6475B7 58%, #40B6E8 100%);padding:7rem 0rem;border-radius:20px;
+        }
+        #seven_main{
+            width:75%;margin:auto;background-color:white;border-radius: 25px;padding:5rem 7rem;
+        }
+        #seven_heading{
+            font-size:calc(1rem + 1vw);font-weight:600;padding-bottom:3rem;
+        }
+        #seven_form{
+            display:flex;
+        }
+        #form_1{
+            width:50%;padding-right:0.75rem;
+        }
+        .seven_label{
+            color:#7E7E7E;font-family: Roboto Mono;font-size: 12px;
+        }
+        .seven_input{
+            border:none;outline:none;border-bottom:1px solid #181933;width:100%;
+        }
+        #form_2{
+            width:50%;padding-left:0.75rem;
+        }
+        #form_bottom_text_container{
+            display:flex;justify-content: space-between;
+        }
+        #form_bottom_text{
+            font-family:Roboto Mono;font-size: 13px;
+        }
+        #form_bottom_text_a{
+            text-decoration:none;
+        }
+        #seven_button_container{
+            width:fit-content;padding:0.75rem 2rem;background-color:#6475B7;border-radius: 25px;
+        }
+        #seven_button{
+            text-decoration:none;color:white;
+        }
+        #seven_about_project_container{
+            width:100%;padding:3rem 0rem;
+        }
+    </style>
+
+    <div id="seven_main">
+        <div id="seven_heading">
             Ready to discuss your project with us?
         </div>
         <form>
-            <div style="display:flex">
-                <div style="width:50%;padding-right:0.75rem">
-                    <label style="color:#7E7E7E;font-family: Roboto Mono;font-size: 12px;" for="name">Full Name</label><br>
-                    <input style="border:none;outline:none;border-bottom:1px solid #181933;width:100%" id="name" >
+            <div id="seven_form" >
+                <div id="form_1">
+                    <label class="seven_label"  for="name">Full Name</label><br>
+                    <input class="seven_input"  id="name" >
                 </div>
-                <div style="width:50%;padding-left:0.75rem">
-                    <label style="color:#7E7E7E;font-family: Roboto Mono;font-size: 12px" for="email">Email</label><br>
-                    <input style="border:none;outline:none;border-bottom:1px solid #181933;width:100%" id="name">
+                <div id="form_2">
+                    <label class="seven_label" for="email">Email</label><br>
+                    <input class="seven_input"  id="name">
                 </div>
             </div>
-            <div style="width:100%;padding:3rem 0rem;">
-                <label style="color:#7E7E7E;font-family: Roboto Mono;font-size: 12px" for="about_project">About Project</label><br>
-                <input style="border:none;outline:none;border-bottom:1px solid #181933;width:100%" id="about_project">
+            <div id="seven_about_project_container">
+                <label class="seven_label" for="about_project">About Project</label><br>
+                <input class="seven_input" id="about_project">
             </div>
         </form>
-        <div style="display:flex;justify-content: space-between;">
-            <div style="font-family:Roboto Mono;font-size: 13px;">
-                By sending this form I confirm that I have read <br>and accept the <span><a style="text-decoration:none" href="#">Privacy Policy</a></span>  
+        <div id="form_bottom_text_container">
+            <div id="form_bottom_text">
+                By sending this form I confirm that I have read <br>and accept the <span><a id="form_bottom_text_a" href="#">Privacy Policy</a></span>  
             </div>
 
-            <div style="width:fit-content;padding:0.75rem 2rem;background-color:#6475B7;border-radius: 25px;">
-                <a style="text-decoration:none;color:white" href="#" >SEND US A MESSAGE</a>
+            <div id="seven_button_container" >
+                <a id="seven_button"  href="#" >SEND US A MESSAGE</a>
             </div>
         </div>
     </div>
@@ -683,26 +736,74 @@
             color:white;
             
         }
+        #tail_image_container{
+            display:flex;
+        }
+        #tail_image{
+            max-width:80%;
+        }
+        #tail_col_1{
+            padding:0;padding-left:4rem;
+        }
+        #tail_text_1{
+            font-weight:600;padding-top: 8rem;
+        }
+        #tail_button_1{
+            border-radius:25px;padding:1px;background:linear-gradient(to left, #6475B7, #40B6E8, #5BC1AC);width:fit-content;
+        }
+        #tail_button_2{
+            width:fit-content;padding:0.75rem 2rem;border-radius: 25px;background-color: #0E0F1F;
+        }
+        #tail_button_3{
+            text-decoration:none;color:#7E7E7E;display:flex; font-size: 12px;align-items: center;
+        }
+        #tail_mail_icon{
+            padding-left:3rem;
+        }
+        #tail_col_2_main{
+            padding-left:13rem;padding-top:2rem;
+        }
+        #tail_contact{
+            padding-top:8rem;display:flex;flex-direction:column;align-items: flex-end;justify-content: flex-end;
+        }
+        #tail_contact_1{
+            color:#7E7E7E;
+        }
+        #tail_contact_2{
+            color:white;line-height:20px;font-weight:500
+        }
+        #tail_privacy_container{
+            display:flex;padding-top:12rem;color:#6475B7;font-size:12px;
+        }
+        #tail_privacy{
+            text-decoration:none;color:#6475B7;
+        }
+        #tail_rights{
+            padding-left:50%;
+        }
+        #bottom_line{
+            height:2px;width:100%;background:linear-gradient(to left, #6475B7, #40B6E8, #5BC1AC);
+        }
+
     </style>
-    <div>
-        <img style="max-width:80%" src="pictures/raizer_logo.png"/>
+    <div id="tail_image_container">
+        <img id="tail_image" src="pictures/raizer_logo.png"/>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-5" style="background-colorr:red;padding:0;padding-left:4rem">
-                <div class="colourful_text" style="font-weight:600;    padding-top: 8rem;">
+            <div class="col-md-5" id="tail_col_1">
+                <div id="tail_text_1" class="colourful_text">
                     SUBSCRIBE TO OUR NEWSLETTER TO STAY IN TOUCH WITH THE LATEST.
                 </div>
-                <div style="border-radius:25px;padding:1px;background:linear-gradient(to left, #6475B7, #40B6E8, #5BC1AC);width:fit-content">
-                    <div style="width:fit-content;padding:0.75rem 2rem;border-radius: 25px;background-color: #0E0F1F;">
-                        <div style="text-decoration:none;color:#7E7E7E;display:flex; font-size: 12px;align-items: center;"  >Your email address <span style="padding-left:3rem" class="material-symbols-outlined">
+                <div id="tail_button_1">
+                    <div id="tail_button_2" >
+                        <div id="tail_button_3">Your email address <span id="tail_mail_icon" class="material-symbols-outlined">
                             mail
                             </span></div>
                     </div> 
-                </div>
-                           
+                </div>     
             </div>
-            <div class="col-md-5" style="background-colorr:rgb(4, 255, 0);padding-left:13rem;padding-top:2rem">
+            <div id="tail_col_2_main" class="col-md-5">
                 <a class="tail_col_2" href="#">Home</a>
                 <a class="tail_col_2" href="#">About Us</a>
                 <a class="tail_col_2" href="#">Engagement Models</a>
@@ -712,31 +813,48 @@
                 <a class="tail_col_2" href="#">Partnerships</a>
                 <a class="tail_col_2" href="#">Use cases</a>
                 <a class="tail_col_2" href="#">Contact</a>
-
-
             </div>
-            <div class="col-md-2" style="background-colorr:rgb(0, 153, 255);padding-top:8rem;display:flex;flex-direction:column;align-items: flex-end;
-            justify-content: flex-end;">
-                <div style="color:#7E7E7E">DROP US A LINE</div>
-                <div style="color:white">info@raizer.ai</div>
+            <div id="tail_contact" class="col-md-2">
+                <div id="tail_contact_1">DROP US A LINE</div>
+                <div id="tail_contact_2" >INFO@RAIZER.AI</div>
             </div>
 
         </div>
     </div>
-    <div style="display:flex;padding-top:12rem;color:#6475B7;font-size:12px">
-        <a style="text-decoration:none;color:#6475B7" href="#">
+    <div id="tail_privacy_container">
+        <a id="tail_privacy"  href="#">
             PRIVACY POLICY
         </a>
-        <div style="padding-left:50%">
+        <div id="tail_rights">
             2023 raizer.ai. All Rights Reserved.
         </div>
     </div>
     
 
 </section>
-<div style=""></div>
+<div id="bottom_line" style=""></div>
 
 <section style="height:20vh;background-color:pink"></section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        function handleScreenSize() {
+            if ($(window).width() < 768) {
+                $('.five_heading').addClass('timeline-content');
+                $('.five_para').removeClass('timeline-content');
+            } else {
+                $('.five_para').addClass('timeline-content');
+                $('.five_heading').removeClass('timeline-content');
+            }
+        }
+        handleScreenSize();
+        $(window).resize(function() {
+            handleScreenSize();
+        });
+    });
+</script>
+
 
 </body>
 </html>
