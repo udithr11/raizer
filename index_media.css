@@ -151,4 +151,7 @@
     .four_heading{
         line-height: 1 !important;
     }
+    .five_heading{
+        border-left: 2px solid #ACB3F0;padding-left:3rem;
+    }
 }
